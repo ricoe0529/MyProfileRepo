@@ -1,0 +1,107 @@
+<style type="text/css">  
+body {
+      margin: 0;
+      background: #222;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 800;
+}
+
+.container {
+      width: 80%;
+      margin: 0 auto;
+}
+
+header {
+  background: #1B1B1B;
+  color: red; opacity: 75%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ff0000;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+p {
+  font-size: 20px;
+  font-family: Monaco, Times New Roman;
+  color: white;
+  margin: 20px;
+}
+body {
+  background-color: #353839;
+}
+h2 {
+  color: red; opacity: 95%;
+  margin: 20px;
+}
+section{
+  width: 100%;
+  height: 300vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #ff0000;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+ol {
+  font-size: 20px;
+  color: white;
+}
+
